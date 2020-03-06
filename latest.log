@@ -1,267 +1,336 @@
-[12:17:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[12:17:20] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[12:17:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[12:17:20] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
-[12:17:20] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_161, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jre1.8.0_161
-[12:17:20] [main/INFO] [FML]: Searching C:\Users\Administrator\Desktop\server28388 - 副本\.\mods for mods
-[12:17:20] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [优化]foamfix-0.10.3-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[12:17:20] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[12:17:20] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.1.9.jar
-[12:17:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:17:20] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[12:17:20] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/Administrator/Desktop/server28388%20-%20副本/./mods/spongeforge-1.12.2-2838-7.1.9.jar Service=LaunchWrapper Env=SERVER
-[12:17:20] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
-[12:17:20] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[12:17:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[12:17:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:17:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[12:17:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:17:21] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[12:17:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:17:21] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[12:17:21] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@7f02251
-[12:17:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[12:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[12:17:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[12:17:22] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[12:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[12:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[12:17:22] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:65]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
-[12:17:23] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
-[12:17:23] [main/WARN] [mixin]: @Mixin target net/minecraft/block/state/BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
-[12:17:24] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:112]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
-[12:17:24] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:149]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
-[12:17:24] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
-[12:17:24] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
-[12:17:24] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
-[12:17:26] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:112]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
-[12:17:26] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:149]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
-[12:17:26] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_189509_E in mixins.common.core.json:world.WorldMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[12:17:26] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:65]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
-[12:17:27] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
-[12:17:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
-[12:17:29] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
-[12:17:29] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
-[12:17:29] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
-[12:17:30] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.tileentity.MobSpawnerBaseLogic.func_98279_f
-[12:17:30] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCache
-[12:17:30] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCacheTime
-[12:17:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[12:17:32] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2838 Initialized
-[12:17:32] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[12:17:32] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[12:17:32] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[12:17:32] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/Administrator/Desktop/server28388%20-%20副本/./mods/spongeforge-1.12.2-2838-7.1.9.jar!/mcmod.info
-[12:17:32] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
-[12:17:36] [Server thread/INFO] [FML]: Searching C:\Users\Administrator\Desktop\server28388 - 副本\.\mods for mods
-[12:17:36] [Server thread/WARN] [Sponge]: Plugin 'soulbinding' seems to be missing a valid mcmod.info metadata file. This is not a problem when testing plugins, however it is recommended to include one in public plugins.
+[00:04:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:04:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:04:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:04:32] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
+[00:04:32] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_161, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jre1.8.0_161
+[00:04:32] [main/INFO] [FML]: Searching C:\Users\Administrator\Desktop\server28388 - 副本\.\mods for mods
+[00:04:32] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in [优化]foamfix-0.10.3-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[00:04:32] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[00:04:32] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.1.9.jar
+[00:04:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:04:32] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[00:04:32] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/Administrator/Desktop/server28388%20-%20副本/./mods/spongeforge-1.12.2-2838-7.1.9.jar Service=LaunchWrapper Env=SERVER
+[00:04:32] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[00:04:32] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[00:04:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:04:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:04:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:04:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:04:34] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[00:04:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:04:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[00:04:34] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@3a91d146
+[00:04:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:04:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:04:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:04:35] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[00:04:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:04:35] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[00:04:35] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:65]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[00:04:36] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[00:04:36] [main/WARN] [mixin]: @Mixin target net/minecraft/block/state/BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
+[00:04:37] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:112]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[00:04:37] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:149]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[00:04:37] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[00:04:37] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[00:04:37] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
+[00:04:41] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:112]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[00:04:41] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:149]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[00:04:42] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_189509_E in mixins.common.core.json:world.WorldMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[00:04:42] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:65]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[00:04:42] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[00:04:43] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[00:04:43] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[00:04:44] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[00:04:45] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[00:04:47] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraft.tileentity.MobSpawnerBaseLogic.func_98279_f
+[00:04:47] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCache
+[00:04:47] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:172]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCacheTime
+[00:04:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[00:04:49] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2838 Initialized
+[00:04:49] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[00:04:49] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[00:04:50] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[00:04:50] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/C:/Users/Administrator/Desktop/server28388%20-%20副本/./mods/spongeforge-1.12.2-2838-7.1.9.jar!/mcmod.info
+[00:04:50] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[00:04:54] [Server thread/INFO] [FML]: Searching C:\Users\Administrator\Desktop\server28388 - 副本\.\mods for mods
+[00:04:54] [Server thread/WARN] [Sponge]: Plugin 'mcqwytitle' seems to be missing a valid mcmod.info metadata file. This is not a problem when testing plugins, however it is recommended to include one in public plugins.
 Please see https://docs.spongepowered.org/master/en/plugin/plugin-meta.html for details.
-[12:17:36] [Server thread/WARN] [Sponge]: Plugin 'mcqwytitle' seems to be missing a valid mcmod.info metadata file. This is not a problem when testing plugins, however it is recommended to include one in public plugins.
-Please see https://docs.spongepowered.org/master/en/plugin/plugin-meta.html for details.
-[12:17:36] [Server thread/INFO] [FML]: Forge Mod Loader has identified 17 mods to load
-[12:17:36] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[12:17:36] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
-[12:17:36] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
-[12:17:36] [Server thread/WARN] [FML]: Missing English translation for foamfix: assets/foamfix/lang/en_us.lang
-[12:17:36] [Server thread/WARN] [FML]: Missing English translation for gwm_library: assets/gwm_library/lang/en_us.lang
-[12:17:36] [Server thread/WARN] [FML]: Missing English translation for soulbinding: assets/soulbinding/lang/en_us.lang
-[12:17:36] [Server thread/WARN] [FML]: Missing English translation for universalmarket: assets/universalmarket/lang/en_us.lang
-[12:17:36] [Server thread/WARN] [FML]: Missing English translation for automines: assets/automines/lang/en_us.lang
-[12:17:36] [Server thread/WARN] [FML]: Missing English translation for economylite: assets/economylite/lang/en_us.lang
-[12:17:36] [Server thread/WARN] [FML]: Missing English translation for mcqwytitle: assets/mcqwytitle/lang/en_us.lang
-[12:17:36] [Server thread/WARN] [Sponge]: The mod universalmarket was designed for spongeapi 7.1.0-fb496dbf0 but version 7.1.0-ea50f0c2 is in use. It may not work properly.
-[12:17:36] [Server thread/WARN] [Sponge]: The mod universalmarket was designed for spongeapi 7.1.0-fb496dbf0 but version 7.1.0-ea50f0c2 is in use. It may not work properly.
-[12:17:37] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, foamfixcore, foamfix, gwm_library, soulbinding, universalmarket, automines, economylite, clans, mcqwyfunction, mcqwytitle] at CLIENT
-[12:17:37] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, foamfixcore, foamfix, gwm_library, soulbinding, universalmarket, automines, economylite, clans, mcqwyfunction, mcqwytitle] at SERVER
-[12:17:37] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
-[12:17:37] [Server thread/INFO] [gwm_library]: Construction completed!
-[12:17:37] [Server thread/INFO] [automines]: Construction completed!
-[12:17:37] [Server thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
-[12:17:37] [Server thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
-[12:17:37] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[12:17:37] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
-[12:17:37] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[12:17:37] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[12:17:37] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[12:17:38] [Server thread/INFO] [gwm_library]: Registered category "RANDOM_MANAGER"
-[12:17:38] [Server thread/INFO] [gwm_library]: Registered category "MINE"
-[12:17:38] [Server thread/INFO] [gwm_library]: Registered category "BLOCK_INFO"
-[12:17:38] [Server thread/INFO] [gwm_library]: Registered identifier for "dev.gwm.spongeplugin.automines.superobject.blockinfo.BlockInfoImpl" with category "BLOCK_INFO" and type "BLOCK-INFO"
-[12:17:38] [Server thread/INFO] [gwm_library]: Registered identifier for "dev.gwm.spongeplugin.library.superobject.randommanager.AbsoluteRandomManager" with category "RANDOM_MANAGER" and type "ABSOLUTE"
-[12:17:38] [Server thread/INFO] [gwm_library]: Registered identifier for "dev.gwm.spongeplugin.automines.superobject.mine.MineImpl" with category "MINE" and type "MINE"
-[12:17:38] [Server thread/INFO] [gwm_library]: Registered identifier for "dev.gwm.spongeplugin.library.superobject.randommanager.LevelRandomManager" with category "RANDOM_MANAGER" and type "LEVEL"
-[12:17:38] [Server thread/INFO] [gwm_library]: Registered identifier for "dev.gwm.spongeplugin.library.superobject.randommanager.WeightRandomManager" with category "RANDOM_MANAGER" and type "WEIGHT"
-[12:17:38] [Server thread/INFO] [gwm_library]: PreInitialization completed!
-[12:17:38] [Server thread/INFO] [STDOUT]: [com.mcqwy.soulbinding.SoulBinding:onGamePreInit:36]: 绑定插件初始化...
-[12:17:38] [Server thread/INFO] [automines]: PreInitialization completed!
-[12:17:38] [Server thread/INFO] [economylite]: EconomyLite 2.15.1 is initializing!
-[12:17:38] [Server thread/INFO] [economylite]: Using currency: Coin
-[12:17:38] [Server thread/INFO] [economylite]: The SQL module is disabled!
-[12:17:38] [Server thread/INFO] [economylite]: The Loan module is disabled!
-[12:17:38] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
-[12:17:39] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
-[12:17:39] [Server thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraftforge.common.property.ExtendedBlockState.createState
-[12:17:39] [Server thread/INFO] [STDOUT]: [pl.asie.foamfix.ProxyCommon:preInit:83]: minecraft:hopper
-[12:17:39] [Server thread/INFO] [foamfix]: Removing LaunchWrapper package manifest map...
-[12:17:39] [Server thread/INFO] [mcqwyfunction]: Started loading config. 
-[12:17:39] [Server thread/INFO] [mcqwyfunction]: Finished loading config. 
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.item.GetItem:getItem:32]: minecraft:diamond
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.item.GetItem:getItem:37]: 1
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.common.ConfigLoader:getItemStackList:165]: 66:0=3=10000
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.item.GetItem:getItem:32]: minecraft:diamond
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.item.GetItem:getItem:37]: 1
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.common.ConfigLoader:getItemStackList:165]: 66:25=2=100
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.item.GetItem:getItem:32]: minecraft:diamond
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.item.GetItem:getItem:37]: 1
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.common.ConfigLoader:getItemStackList:165]: 66:26=1=100
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.item.GetItem:getItem:32]: ic2:te
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.common.ConfigLoader:getItemStackList:187]: 物品不存在 "ic2:te"@75
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.item.GetItem:getItem:32]: ic2:te
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.common.ConfigLoader:getItemStackList:187]: 物品不存在 "ic2:te"@75
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.item.GetItem:getItem:32]: ic2:te
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.common.ConfigLoader:getItemStackList:187]: 物品不存在 "ic2:te"@75
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.item.GetItem:getItem:32]: ic2:te
-[12:17:39] [Server thread/INFO] [STDOUT]: [com.mcqwy.function.common.ConfigLoader:getItemStackList:187]: 物品不存在 "ic2:te"@75
-[12:17:39] [Server thread/INFO] [FML]: Applying holder lookups
-[12:17:39] [Server thread/INFO] [FML]: Holder lookups applied
-[12:17:39] [Server thread/INFO] [FML]: Applying holder lookups
-[12:17:39] [Server thread/INFO] [FML]: Holder lookups applied
-[12:17:39] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
-[12:17:39] [Server thread/INFO] [FML]: Applying holder lookups
-[12:17:39] [Server thread/INFO] [FML]: Holder lookups applied
-[12:17:39] [Server thread/INFO] [FML]: Applying holder lookups
-[12:17:39] [Server thread/INFO] [FML]: Holder lookups applied
-[12:17:39] [Server thread/INFO] [FML]: Injecting itemstacks
-[12:17:39] [Server thread/INFO] [FML]: Itemstack injection complete
-[12:17:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[12:17:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[12:17:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[12:17:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[12:17:39] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
-[12:17:39] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:17:39] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[12:17:39] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:17:39] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:17:40] [Server thread/INFO] [FML]: Applying holder lookups
-[12:17:40] [Server thread/INFO] [FML]: Holder lookups applied
-[12:17:40] [Server thread/INFO] [foamfix]: Deduplicated 99 property sets.
-[12:17:40] [Server thread/INFO] [foamfix]: Weakening LaunchWrapper resource cache...
-[12:17:40] [Server thread/INFO] [FML]: Injecting itemstacks
-[12:17:40] [Server thread/INFO] [FML]: Itemstack injection complete
-[12:17:40] [Server thread/INFO] [gwm_library]: Economy Service has been found!
-[12:17:40] [Server thread/WARN] [gwm_library]: Holograms Service is not found!
-[12:17:40] [Server thread/WARN] [gwm_library]: Placeholder Service is not found!
-[12:17:40] [Server thread/INFO] [gwm_library]: Chunk Ticket Manager has been found!
-[12:17:40] [Server thread/INFO] [gwm_library]: PostInitialization completed!
-[12:17:40] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 17 mods
-[12:17:40] [Server thread/INFO] [universalmarket]: jdbc:sqlite:C:\Users\Administrator\Desktop\server28388 - 副本\.\config\UniversalMarket\universalmarket.db DB file.
-[12:17:40] [Server thread/INFO] [STDOUT]: [com.xwaffle.universalmarket.database.Database:createNewDatabase:111]: The driver name is SQLiteJDBC
-[12:17:40] [Server thread/INFO] [STDOUT]: [com.xwaffle.universalmarket.database.Database:createNewDatabase:112]: A new database has been created.
-[12:17:40] [Server thread/INFO] [STDOUT]: [com.xwaffle.universalmarket.database.Database:connect:96]: Connection to SQLite has been established.
-[12:17:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[12:17:40] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
-[12:17:40] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
-[12:17:40] [Server thread/INFO] [FML.ModTracker]: This world was saved with mod clans version ${version} and it is now at version 1.5.3, things may not work well
-[12:17:40] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[12:17:40] [Server thread/INFO] [FML]: Applying holder lookups
-[12:17:40] [Server thread/INFO] [FML]: Holder lookups applied
-[12:17:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[12:17:41] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
-[12:17:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world world (minecraft:overworld/0)
-[12:17:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 49%
-[12:17:43] [Server thread/INFO] [Sponge]: Loading world [world] (minecraft:overworld/0)
-[12:17:43] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[12:17:43] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
-[12:17:43] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (minecraft:nether/-1)
-[12:17:43] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[12:17:43] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
-[12:17:43] [Server thread/INFO] [Sponge]: Loading world [DIM1] (minecraft:the_end/1)
-[12:17:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (3.498s)! For help, type "help" or "?"
-[12:17:43] [Server thread/INFO] [gwm_library]: Loaded Saved Super Object with category "RANDOM_MANAGER", type "LEVEL" and id "default_random_manager"
-[12:17:43] [Server thread/INFO] [gwm_library]: Loaded Saved Super Object with category "RANDOM_MANAGER", type "WEIGHT" and id "weight_random_manager"
-[12:17:44] [Server thread/INFO] [automines]: Loaded the Mine from the file "forest_mine.conf" with id "forest_mine"!
-[12:17:44] [Server thread/INFO] [automines]: Mines load statistics (loaded/skipped/failed): 1/0/0
-[12:17:44] [Server thread/INFO] [gwm_library]: StartingServer completed!
-[12:17:44] [Server thread/INFO] [universalmarket]: Loaded 66 items!
-[12:18:18] [Netty Server IO #2/INFO] [FML]: Client protocol version 2
-[12:18:18] [Netty Server IO #2/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,ftblib@5.4.4.5,waila@1.8.26,mcqwyfunction@1.0.1,jei@4.15.0.268,jeresources@0.8.5.26,forge@14.23.5.2825,neat@1.4-15,ftbutilities@5.4.0.124,mcp@9.42,wailaharvestability@1.1.12,ironchest@1.12.2-7.0.67.844
-[12:18:18] [Netty Server IO #2/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, foamfixcore, foamfix, gwm_library, soulbinding, universalmarket, automines, economylite, clans, mcqwytitle] at CLIENT
-[12:18:18] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[12:18:19] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: 12344 [/127.0.0.1:61217] logged in with entity id [383] in world (minecraft:overworld/0) at (-94.23153805838207, 70.0, 208.40603253215468).
-[12:18:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 12344 joined the game
-[12:18:36] [Netty Server IO #6/INFO] [FML]: Client protocol version 2
-[12:18:36] [Netty Server IO #6/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,ftblib@5.4.4.5,waila@1.8.26,mcqwyfunction@1.0.1,jei@4.15.0.268,jeresources@0.8.5.26,forge@14.23.5.2825,neat@1.4-15,ftbutilities@5.4.0.124,mcp@9.42,wailaharvestability@1.1.12,ironchest@1.12.2-7.0.67.844
-[12:18:36] [Netty Server IO #6/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, foamfixcore, foamfix, gwm_library, soulbinding, universalmarket, automines, economylite, clans, mcqwytitle] at CLIENT
-[12:18:36] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[12:18:36] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: 1234 [/127.0.0.1:61245] logged in with entity id [1838] in world (minecraft:overworld/0) at (-93.64923327286056, 71.16610926093821, 208.96449978785932).
-[12:18:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1234 joined the game
-[12:18:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <12344><12344> 1
-[12:19:02] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 12344 lost connection: Disconnected
-[12:19:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 12344 left the game
-[12:19:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <1234><1234> 1
-[12:19:41] [Server thread/ERROR] [FML]: Exception caught during firing event net.minecraftforge.fml.common.gameevent.TickEvent$ServerTickEvent@30e973a6:
-java.lang.NullPointerException: null
-	at the_fireplace.clans.cache.RaidingParties.activateRaid(RaidingParties.java:148) ~[RaidingParties.class:?]
-	at the_fireplace.clans.cache.RaidingParties.decrementBuffers(RaidingParties.java:115) ~[RaidingParties.class:?]
-	at the_fireplace.clans.logic.TimerLogic.runOneSecondLogic(TimerLogic.java:84) ~[TimerLogic.class:?]
-	at the_fireplace.clans.forge.event.Timer.onServerTick(Timer.java:37) ~[Timer.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_Timer_onServerTick_ServerTickEvent.invoke(.dynamic) ~[?:?]
+[00:04:54] [Server thread/INFO] [FML]: Forge Mod Loader has identified 15 mods to load
+[00:04:54] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[00:04:54] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[00:04:54] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[00:04:54] [Server thread/WARN] [FML]: Missing English translation for nucleus: assets/nucleus/lang/en_us.lang
+[00:04:54] [Server thread/WARN] [FML]: Missing English translation for foamfix: assets/foamfix/lang/en_us.lang
+[00:04:54] [Server thread/WARN] [FML]: Missing English translation for gwm_library: assets/gwm_library/lang/en_us.lang
+[00:04:54] [Server thread/WARN] [FML]: Missing English translation for luckperms: assets/luckperms/lang/en_us.lang
+[00:04:54] [Server thread/WARN] [FML]: Missing English translation for economylite: assets/economylite/lang/en_us.lang
+[00:04:54] [Server thread/WARN] [FML]: Missing English translation for mcqwytitle: assets/mcqwytitle/lang/en_us.lang
+[00:04:55] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, foamfixcore, nucleus, foamfix, gwm_library, luckperms, economylite, clans, mcqwytitle] at CLIENT
+[00:04:55] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, foamfixcore, nucleus, foamfix, gwm_library, luckperms, economylite, clans, mcqwytitle] at SERVER
+[00:04:56] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[00:04:56] [Server thread/INFO] [gwm_library]: Construction completed!
+[00:04:56] [Server thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:75]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[00:04:56] [Server thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:87]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[00:04:57] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[00:04:57] [Server thread/INFO] [FML]: Found 1169 ObjectHolder annotations
+[00:04:57] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[00:04:57] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[00:04:57] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[00:04:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 欢迎使用 Nucleus 版本 1.14.1-S7.1，运行于Sponge API 版本 7.1.0-ea50f0c2 上!
+[00:04:57] [Server thread/INFO] [nucleus]: Nucleus 已经开始了。进入预初始化阶段。
+[00:04:58] [Server thread/INFO] [nucleus]: Starting QuickStart Module Loader version 0.11.0 subsystem.
+[00:04:58] [Server thread/WARN] [nucleus]: Ignoring module entry geo-ip in the configuration file: module does not exist.
+[00:04:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:         __    
+[00:04:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   |    |__)   LuckPerms v5.0.39
+[00:04:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   |___ |      Running on Sponge - SpongeForge
+[00:04:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[00:04:58] [Server thread/INFO] [luckperms]: Loading configuration...
+[00:04:58] [Server thread/INFO] [luckperms]: Found lang.yml - loading messages...
+[00:04:59] [Server thread/INFO] [luckperms]: Loading storage provider... [JSON]
+[00:05:00] [Server thread/INFO] [luckperms]: Loading internal permission managers...
+[00:05:00] [Server thread/INFO] [luckperms]: Registering PermissionService...
+[00:05:00] [Server thread/INFO] [luckperms]: Performing initial data load...
+[00:05:00] [Server thread/INFO] [luckperms]: Successfully enabled. (took 2124ms)
+[00:05:00] [Server thread/INFO] [economylite]: EconomyLite 2.15.1 is initializing!
+[00:05:00] [Server thread/INFO] [economylite]: Using currency: Coin
+[00:05:00] [Server thread/INFO] [economylite]: The SQL module is disabled!
+[00:05:00] [Server thread/INFO] [economylite]: The Loan module is disabled!
+[00:05:00] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+[00:05:01] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+[00:05:01] [Server thread/INFO] [gwm_library]: Registered category "RANDOM_MANAGER"
+[00:05:01] [Server thread/INFO] [gwm_library]: Registered identifier for "dev.gwm.spongeplugin.library.superobject.randommanager.AbsoluteRandomManager" with category "RANDOM_MANAGER" and type "ABSOLUTE"
+[00:05:01] [Server thread/INFO] [gwm_library]: Registered identifier for "dev.gwm.spongeplugin.library.superobject.randommanager.LevelRandomManager" with category "RANDOM_MANAGER" and type "LEVEL"
+[00:05:01] [Server thread/INFO] [gwm_library]: Registered identifier for "dev.gwm.spongeplugin.library.superobject.randommanager.WeightRandomManager" with category "RANDOM_MANAGER" and type "WEIGHT"
+[00:05:01] [Server thread/INFO] [gwm_library]: PreInitialization completed!
+[00:05:01] [Server thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:125]: Spliced in METHOD: net.minecraftforge.common.property.ExtendedBlockState.createState
+[00:05:01] [Server thread/INFO] [STDOUT]: [pl.asie.foamfix.ProxyCommon:preInit:83]: minecraft:hopper
+[00:05:01] [Server thread/INFO] [foamfix]: Removing LaunchWrapper package manifest map...
+[00:05:01] [Server thread/INFO] [FML]: Applying holder lookups
+[00:05:01] [Server thread/INFO] [FML]: Holder lookups applied
+[00:05:01] [Server thread/INFO] [FML]: Applying holder lookups
+[00:05:01] [Server thread/INFO] [FML]: Holder lookups applied
+[00:05:01] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[00:05:01] [Server thread/INFO] [FML]: Applying holder lookups
+[00:05:01] [Server thread/INFO] [FML]: Holder lookups applied
+[00:05:01] [Server thread/INFO] [FML]: Applying holder lookups
+[00:05:01] [Server thread/INFO] [FML]: Holder lookups applied
+[00:05:01] [Server thread/INFO] [FML]: Injecting itemstacks
+[00:05:01] [Server thread/INFO] [FML]: Itemstack injection complete
+[00:05:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[00:05:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[00:05:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[00:05:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[00:05:02] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[00:05:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:05:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[00:05:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:05:02] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:05:02] [Server thread/INFO] [FML]: Applying holder lookups
+[00:05:02] [Server thread/INFO] [FML]: Holder lookups applied
+[00:05:02] [Server thread/INFO] [nucleus]: Nucleus 已经进入初始阶段。
+[00:05:02] [Server thread/INFO] [nucleus]: Nucleus 进入初始化阶段。
+[00:05:02] [Server thread/INFO] [nucleus]: Nucleus 正在加载和启用模块。这需要一点时间。
+[00:05:02] [Server thread/INFO] [nucleus]: Starting phase: PREENABLE
+[00:05:03] [Server thread/INFO] [nucleus]: Starting phase: ENABLE
+[00:05:05] [Server thread/INFO] [nucleus]: Starting phase: POSTENABLE
+[00:05:05] [Server thread/INFO] [nucleus]: 将Nucleus语言偏好设置为 "zh-CN"
+[00:05:05] [Server thread/INFO] [nucleus]: Nucleus 已完成模块加载。
+[00:05:05] [Server thread/INFO] [nucleus]: Nucleus已完成了初始化。请等待计算机加载完毕服务端。
+[00:05:05] [Server thread/INFO] [foamfix]: Deduplicated 99 property sets.
+[00:05:05] [Server thread/INFO] [foamfix]: Weakening LaunchWrapper resource cache...
+[00:05:05] [Server thread/INFO] [FML]: Injecting itemstacks
+[00:05:05] [Server thread/INFO] [FML]: Itemstack injection complete
+[00:05:05] [Server thread/INFO] [gwm_library]: Economy Service has been found!
+[00:05:05] [Server thread/WARN] [gwm_library]: Holograms Service is not found!
+[00:05:05] [Server thread/WARN] [gwm_library]: Placeholder Service is not found!
+[00:05:05] [Server thread/INFO] [gwm_library]: Chunk Ticket Manager has been found!
+[00:05:05] [Server thread/INFO] [gwm_library]: PostInitialization completed!
+[00:05:06] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 15 mods
+[00:05:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[00:05:06] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[00:05:06] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[00:05:06] [Server thread/WARN] [Sponge]: World [DIM7] (7) has specified dimension type that is not registered. Skipping...
+[00:05:06] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod twilightforest which appears to be missing, things may not work well
+[00:05:06] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod soulbinding which appears to be missing, things may not work well
+[00:05:06] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod universalmarket which appears to be missing, things may not work well
+[00:05:06] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod automines which appears to be missing, things may not work well
+[00:05:06] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer.
+[00:05:15] [Server thread/ERROR] [FML]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[00:05:16] [Server thread/INFO] [FML]: Applying holder lookups
+[00:05:16] [Server thread/INFO] [FML]: Holder lookups applied
+[00:05:16] [Server thread/ERROR] [FML]: The fluid fiery_essence (specified as twilightforest:fiery_essence) is missing from this instance - it will be removed
+[00:05:16] [Server thread/ERROR] [FML]: The fluid knightmetal (specified as twilightforest:knightmetal) is missing from this instance - it will be removed
+[00:05:16] [Server thread/ERROR] [FML]: The fluid fierymetal (specified as twilightforest:fierymetal) is missing from this instance - it will be removed
+[00:05:17] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[00:05:17] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
+[00:05:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world world (minecraft:overworld/0)
+[00:05:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 17%
+[00:05:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 98%
+[00:05:19] [Server thread/INFO] [Sponge]: Loading world [world] (minecraft:overworld/0)
+[00:05:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[00:05:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
+[00:05:19] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (minecraft:nether/-1)
+[00:05:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[00:05:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 6 advancement trees
+[00:05:19] [Server thread/INFO] [Sponge]: Loading world [DIM1] (minecraft:the_end/1)
+[00:05:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (14.432s)! For help, type "help" or "?"
+[00:05:20] [Server thread/INFO] [gwm_library]: Loaded Saved Super Object with category "RANDOM_MANAGER", type "LEVEL" and id "default_random_manager"
+[00:05:20] [Server thread/INFO] [gwm_library]: Loaded Saved Super Object with category "RANDOM_MANAGER", type "WEIGHT" and id "weight_random_manager"
+[00:05:20] [Server thread/INFO] [gwm_library]: StartingServer completed!
+[00:05:20] [Server thread/INFO] [nucleus]: Nucleus 在启动完成前已经执行了所有任务。
+[00:05:20] [Server thread/INFO] [nucleus]: Nucleus 已经启动。
+[00:05:24] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[00:05:24] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 13 mods : minecraft@1.12.2,FML@8.0.99.99,ftblib@5.4.4.5,waila@1.8.26,mcqwyfunction@1.0.1,jei@4.15.0.268,jeresources@0.8.5.26,forge@14.23.5.2825,neat@1.4-15,ftbutilities@5.4.0.124,mcp@9.42,wailaharvestability@1.1.12,ironchest@1.12.2-7.0.67.844
+[00:05:24] [Netty Server IO #1/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, foamfixcore, nucleus, foamfix, gwm_library, luckperms, economylite, clans, mcqwytitle] at CLIENT
+[00:05:25] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:05:25] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: 1234 [/127.0.0.1:51558] logged in with entity id [198] in world (minecraft:overworld/0) at (-94.86778806312047, 70.0, 209.23236424909322).
+[00:05:25] [Server thread/WARN] [nucleus]: The player 1234 has got either the nucleus wildcard or the * wildcard permission. This may cause unintended side effects.
+[00:05:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1234 joined the game
+[00:05:33] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 5194ms behind, skipping 103 tick(s)
+[00:05:56] [Netty Server IO #3/INFO] [FML]: Client protocol version 2
+[00:05:56] [Netty Server IO #3/INFO] [FML]: Client attempting to join with 52 mods : customskinloader@14.9,jei@4.15.0.268,dynamiclights_theplayer@1.1.3,dynamiclights_floodlights@1.0.3,dynamiclights@1.4.9,projecte@1.12.2-PE1.4.1,techguns_core@1.12.2-1.0,plustic@7.1.6.1,wawla@2.5.273,neat@1.4-15,mcp@9.42,harvestcraft@1.12.2z,foamfixcore@7.7.4,dynamiclights_otherplayers@1.0.9,waila@1.8.26,mcqwyfunction@1.0.1,galacticraftplanets@4.0.1.181,micdoodlecore@,jeresources@0.8.5.26,immersivepetroleum@1.1.9,forge@14.23.5.2838,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r25,immersivetech@1.3.10,minecraft@1.12.2,tconstruct@1.12.2-2.13.0.179,tinkertoolleveling@1.12.2-1.1.0.DEV.b23e769,dynamiclights_entityclasses@1.0.1,avaritia@3.2.0,immersiveengineering@0.12-92,baubles@1.5.2,dynamiclights_dropitems@1.1.0,botania@r1.10-363,dynamiclights_mobequipment@1.1.0,dynamiclights_flamearrows@1.0.1,mantle@1.12-1.3.3.55,ic2@2.8.187-ex112,advanced_solar_panels@4.3.0,galacticraftcore@4.0.1.181,armourers_workshop@1.12.2-0.49.1,FML@8.0.99.99,taiga@1.12.2-1.3.3,customnpcs@1.12,extrabotany@56,foamfix@0.10.3-1.12.2,dynamiclights_onfire@1.0.7,dynamiclights_creepers@1.0.6,cosmeticarmorreworked@1.12.2-v1,codechickenlib@3.2.2.353,tinkersaddons@1.0.7,wailaharvestability@1.1.12,techguns@2.0.2.0
+[00:05:56] [Netty Server IO #3/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, nucleus, gwm_library, luckperms, economylite, clans, mcqwytitle] at CLIENT
+[00:05:56] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2502ms behind, skipping 50 tick(s)
+[00:05:56] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:05:56] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: =mMYgWV12URrEk= [/127.0.0.1:51572] logged in with entity id [2508] in world (minecraft:overworld/0) at (-139.5, 71.0, 179.5).
+[00:05:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 欢迎新玩家 =mMYgWV12URrEk= 加入服务器!
+[00:05:57] [Server thread/WARN] [nucleus]: The player =mMYgWV12URrEk= has got either the nucleus wildcard or the * wildcard permission. This may cause unintended side effects.
+[00:05:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: =mMYgWV12URrEk= (formerly known as [sponge]) joined the game
+[00:06:00] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /raid 
+[00:06:06] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /raid join 1234
+[00:06:15] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /time set 100
+[00:06:25] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /oc setshield 12344 0
+[00:06:27] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /oc setshield 1234 0
+[00:06:29] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /raid join 1234
+[00:06:37] [Server thread/INFO] [nucleus]: 1234 执行指令: /gm 0
+[00:06:41] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /raid join 1234
+[00:06:56] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /gm 1
+[00:07:02] [Server thread/INFO] [nucleus]: 1234 执行指令: /c h
+[00:07:14] [Server thread/INFO] [nucleus]: 1234 执行指令: /tppos 400 70 400
+[00:07:18] [Server thread/INFO] [nucleus]: 1234 执行指令: /gm 1
+[00:07:20] [Server thread/INFO] [nucleus]: 1234 执行指令: /tppos 400 70 400
+[00:07:26] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2637ms behind, skipping 52 tick(s)
+[00:07:29] [Server thread/INFO] [nucleus]: 1234 执行指令: /gm 0
+[00:07:32] [Server thread/INFO] [nucleus]: 1234 执行指令: /c c
+[00:07:45] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /tp 1234
+[00:08:02] [Server thread/INFO] [nucleus]: 1234 执行指令: /gm 0
+[00:08:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1234 was slain by =mMYgWV12URrEk=
+[00:08:18] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /raid start
+[00:08:46] [Server thread/INFO] [nucleus]: =mMYgWV12URrEk= 执行指令: /gm 0
+[00:09:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [星空之际] <=mMYgWV12URrEk=>: 1
+[00:09:31] [Server thread/INFO] [nucleus]: Server 执行指令: /kick 1234
+[00:09:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1234 被 Server 踢出服务器。
+[00:09:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 理由: 您已经被踢出服务器。
+[00:09:31] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1234 lost connection: 您已经被踢出服务器。
+[00:09:31] [Server thread/ERROR] [FML]: Exception caught during firing event net.minecraftforge.fml.common.gameevent.PlayerEvent$PlayerLoggedOutEvent@1219e2c5:
+java.lang.NoClassDefFoundError: the_fireplace/grandeconomy/api/GrandEconomyApi
+	at the_fireplace.clans.model.Clan.getFilteredFormula(Clan.java:704) ~[Clan.class:?]
+	at the_fireplace.clans.model.Clan.setMultiplier(Clan.java:671) ~[Clan.class:?]
+	at the_fireplace.clans.model.Clan.increaseMultiplier(Clan.java:665) ~[Clan.class:?]
+	at the_fireplace.clans.model.Clan.addLoss(Clan.java:656) ~[Clan.class:?]
+	at the_fireplace.clans.model.Raid.raiderVictory(Raid.java:56) ~[Raid.class:?]
+	at the_fireplace.clans.model.Raid.removeDefender(Raid.java:194) ~[Raid.class:?]
+	at the_fireplace.clans.cache.RaidingParties.playerLoggedOut(RaidingParties.java:107) ~[RaidingParties.class:?]
+	at the_fireplace.clans.logic.PlayerEventLogic.onPlayerLoggedOut(PlayerEventLogic.java:47) ~[PlayerEventLogic.class:?]
+	at the_fireplace.clans.forge.event.PlayerEvents.onPlayerLogout(PlayerEvents.java:27) ~[PlayerEvents.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_7_PlayerEvents_onPlayerLogout_PlayerLoggedOutEvent.invoke(.dynamic) ~[?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:753) [EventBus.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:703) [EventBus.class:?]
-	at net.minecraftforge.fml.common.FMLCommonHandler.onPostServerTick(FMLCommonHandler.java:266) [FMLCommonHandler.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:712) [MinecraftServer.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:708) [EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostPlayerLoggedOutEvent(SpongeToForgeEventFactory.java:900) [SpongeToForgeEventFactory.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostForgeEvent(SpongeToForgeEventFactory.java:275) [SpongeToForgeEventFactory.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:337) [SpongeModEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:446) [SpongeModEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:415) [SpongeModEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.event.SpongeEventManager.post(SpongeEventManager.java:465) [SpongeEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:253) [SpongeImpl.class:1.12.2-2838-7.1.9]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$zii000$onDisconnectHandler(NetHandlerPlayServer.java:2937) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147231_a(NetHandlerPlayServer.java:851) [pa.class:?]
+	at net.minecraft.network.NetworkManager.func_179293_l(NetworkManager.java:453) [gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:213) [oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[12:19:41] [Server thread/ERROR] [FML]: Index: 1 Listeners:
-[12:19:41] [Server thread/ERROR] [FML]: 0: NORMAL
-[12:19:41] [Server thread/ERROR] [FML]: 1: ASM: class the_fireplace.clans.forge.event.Timer onServerTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ServerTickEvent;)V
-[12:19:41] [Server thread/ERROR] [FML]: 2: ASM: net.minecraftforge.common.ForgeInternalHandler@62bd8136 onServerTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ServerTickEvent;)V
-[12:19:41] [Server thread/ERROR] [FML]: 3: ASM: spongeforge onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ServerTickEvent;)V
-[12:19:41] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
-java.lang.NullPointerException: null
-	at the_fireplace.clans.cache.RaidingParties.activateRaid(RaidingParties.java:148) ~[RaidingParties.class:?]
-	at the_fireplace.clans.cache.RaidingParties.decrementBuffers(RaidingParties.java:115) ~[RaidingParties.class:?]
-	at the_fireplace.clans.logic.TimerLogic.runOneSecondLogic(TimerLogic.java:84) ~[TimerLogic.class:?]
-	at the_fireplace.clans.forge.event.Timer.onServerTick(Timer.java:37) ~[Timer.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_4_Timer_onServerTick_ServerTickEvent.invoke(.dynamic) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: the_fireplace.grandeconomy.api.GrandEconomyApi
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_161]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_161]
+	... 29 more
+Caused by: java.lang.NullPointerException
+[00:09:31] [Server thread/ERROR] [FML]: Index: 1 Listeners:
+[00:09:31] [Server thread/ERROR] [FML]: 0: NORMAL
+[00:09:31] [Server thread/ERROR] [FML]: 1: ASM: class the_fireplace.clans.forge.event.PlayerEvents onPlayerLogout(Lnet/minecraftforge/fml/common/gameevent/PlayerEvent$PlayerLoggedOutEvent;)V
+[00:09:31] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+java.lang.NoClassDefFoundError: the_fireplace/grandeconomy/api/GrandEconomyApi
+	at the_fireplace.clans.model.Clan.getFilteredFormula(Clan.java:704) ~[Clan.class:?]
+	at the_fireplace.clans.model.Clan.setMultiplier(Clan.java:671) ~[Clan.class:?]
+	at the_fireplace.clans.model.Clan.increaseMultiplier(Clan.java:665) ~[Clan.class:?]
+	at the_fireplace.clans.model.Clan.addLoss(Clan.java:656) ~[Clan.class:?]
+	at the_fireplace.clans.model.Raid.raiderVictory(Raid.java:56) ~[Raid.class:?]
+	at the_fireplace.clans.model.Raid.removeDefender(Raid.java:194) ~[Raid.class:?]
+	at the_fireplace.clans.cache.RaidingParties.playerLoggedOut(RaidingParties.java:107) ~[RaidingParties.class:?]
+	at the_fireplace.clans.logic.PlayerEventLogic.onPlayerLoggedOut(PlayerEventLogic.java:47) ~[PlayerEventLogic.class:?]
+	at the_fireplace.clans.forge.event.PlayerEvents.onPlayerLogout(PlayerEvents.java:27) ~[PlayerEvents.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_7_PlayerEvents_onPlayerLogout_PlayerLoggedOutEvent.invoke(.dynamic) ~[?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:753) ~[EventBus.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:703) ~[EventBus.class:?]
-	at net.minecraftforge.fml.common.FMLCommonHandler.onPostServerTick(FMLCommonHandler.java:266) ~[FMLCommonHandler.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:712) ~[MinecraftServer.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:708) ~[EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostPlayerLoggedOutEvent(SpongeToForgeEventFactory.java:900) ~[SpongeToForgeEventFactory.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostForgeEvent(SpongeToForgeEventFactory.java:275) ~[SpongeToForgeEventFactory.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:337) ~[SpongeModEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:446) ~[SpongeModEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:415) ~[SpongeModEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.event.SpongeEventManager.post(SpongeEventManager.java:465) ~[SpongeEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:253) ~[SpongeImpl.class:1.12.2-2838-7.1.9]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$zii000$onDisconnectHandler(NetHandlerPlayServer.java:2937) ~[pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147231_a(NetHandlerPlayServer.java:851) ~[pa.class:?]
+	at net.minecraft.network.NetworkManager.func_179293_l(NetworkManager.java:453) ~[gw.class:?]
+	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:213) ~[oz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:790) ~[MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) ~[nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) ~[MinecraftServer.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
-[12:19:41] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: C:\Users\Administrator\Desktop\server28388 - 副本\.\crash-reports\crash-2020-03-04_12.19.41-server.txt
-[12:19:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[12:19:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[12:19:41] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1234 lost connection: Disconnected
-[12:19:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1234 left the game
-[12:19:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[12:19:41] [Server thread/INFO] [Sponge]: Unloading world [world] (minecraft:overworld/0)
-[12:19:41] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (minecraft:nether/-1)
-[12:19:41] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (minecraft:the_end/1)
-[12:19:41] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
-[12:19:41] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
-[12:19:41] [Server thread/INFO] [FML]: The state engine was in incorrect state SERVER_STOPPING and forced into state SERVER_STOPPED. Errors may have been discarded.
-[12:19:41] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+Caused by: java.lang.ClassNotFoundException: the_fireplace.grandeconomy.api.GrandEconomyApi
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_161]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_161]
+	... 29 more
+Caused by: java.lang.NullPointerException
+[00:09:31] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: C:\Users\Administrator\Desktop\server28388 - 副本\.\crash-reports\crash-2020-03-07_00.09.31-server.txt
+[00:09:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[00:09:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[00:09:31] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
+[00:09:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[00:09:31] [Server thread/INFO] [Sponge]: Unloading world [world] (minecraft:overworld/0)
+[00:09:31] [Server thread/INFO] [Sponge]: Unloading world [DIM-1] (minecraft:nether/-1)
+[00:09:31] [Server thread/INFO] [Sponge]: Unloading world [DIM1] (minecraft:the_end/1)
+[00:09:32] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown initiated...
+[00:09:32] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Shutdown completed.
+[00:09:32] [Server thread/INFO] [nucleus]: Nucleus 正在执行服务器关闭操作.
+[00:09:32] [Server thread/INFO] [FML]: The state engine was in incorrect state SERVER_STOPPING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[00:09:32] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
