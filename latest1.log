@@ -1,0 +1,102 @@
+[02:40:47] [Server thread/INFO] [Sponge]: Loading world [DIM-1] (minecraft:nether/-1)
+[02:40:48] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 693 advancements
+[02:40:48] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 8 advancement trees
+[02:40:54] [Server thread/INFO] [nucleus]: 1234 执行指令: /gc 
+[02:41:00] [Server thread/INFO] [nucleus]: 1234 执行指令: /warp zc
+[02:53:04] [Server thread/INFO] [nucleus]: 1234 执行指令: /c lock
+[02:54:43] [Server thread/INFO] [nucleus]: 1234 执行指令: /c setdefault 1234
+[02:54:46] [Server thread/INFO] [nucleus]: 1234 执行指令: /c lock
+[02:55:03] [Server thread/INFO] [nucleus]: 1234 执行指令: /c lock open
+[02:56:42] [Netty Server IO #6/INFO] [FML]: Client protocol version 2
+[02:56:42] [Netty Server IO #6/INFO] [FML]: Client attempting to join with 14 mods : minecraft@1.12.2,FML@8.0.99.99,ftblib@5.4.4.5,waila@1.8.26,mcqwyfunction@1.0.1,jei@4.15.0.268,jeresources@0.8.5.26,forge@14.23.5.2825,neat@1.4-15,ic2@2.8.188-ex112,ftbutilities@5.4.0.124,mcp@9.42,wailaharvestability@1.1.12,ironchest@1.12.2-7.0.67.844
+[02:56:42] [Netty Server IO #6/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, foamfixcore, nucleus, foamfix, gwm_library, twilightforest, luckperms, economylite, clans, mcqwytitle] at CLIENT
+[02:56:42] [Netty Server IO #6/INFO] [FML]: Rejecting connection CLIENT: IndustrialCraft 2: Requires version 2.8.187-ex112 but client has 2.8.188-ex112.
+The Twilight Forest: Requires version 3.10.1013 but mod is not found on client.
+[02:56:42] [Netty Server IO #6/ERROR] [FML]: Network Disconnect: Server Mod rejections:
+IndustrialCraft 2: Requires version 2.8.187-ex112 but client has 2.8.188-ex112.
+The Twilight Forest: Requires version 3.10.1013 but mod is not found on client.
+[02:56:42] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 12344 lost connection: Server Mod rejections:
+IndustrialCraft 2: Requires version 2.8.187-ex112 but client has 2.8.188-ex112.
+The Twilight Forest: Requires version 3.10.1013 but mod is not found on client.
+[02:57:54] [Server thread/INFO] [nucleus]: 1234 执行指令: /gc 
+[02:58:43] [Netty Server IO #5/INFO] [FML]: Client protocol version 2
+[02:58:43] [Netty Server IO #5/INFO] [FML]: Client attempting to join with 15 mods : minecraft@1.12.2,FML@8.0.99.99,ftblib@5.4.4.5,waila@1.8.26,mcqwyfunction@1.0.1,jei@4.15.0.268,jeresources@0.8.5.26,forge@14.23.5.2825,twilightforest@3.10.1013,neat@1.4-15,ic2@2.8.187-ex112,ftbutilities@5.4.0.124,mcp@9.42,wailaharvestability@1.1.12,ironchest@1.12.2-7.0.67.844
+[02:58:43] [Netty Server IO #5/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, foamfixcore, nucleus, foamfix, gwm_library, luckperms, economylite, clans, mcqwytitle] at CLIENT
+[02:58:43] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[02:58:44] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: 12344 [/127.0.0.1:61270] logged in with entity id [15824] in world (minecraft:overworld/0) at (-93.77979377340446, 68.0, 228.0197857746065).
+[02:58:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 12344 joined the game
+[02:58:49] [Server thread/INFO] [nucleus]: 12344 执行指令: /tp 1234
+[02:58:52] [Server thread/ERROR] [FML]: Exception caught during firing event net.minecraftforge.event.entity.player.PlayerInteractEvent$RightClickBlock@4721fcb:
+java.lang.NullPointerException: null
+	at the_fireplace.clans.model.Clan.hasLockAccess(Clan.java:766) ~[Clan.class:?]
+	at the_fireplace.clans.logic.LandProtectionEventLogic.shouldCancelRightClickBlock(LandProtectionEventLogic.java:163) ~[LandProtectionEventLogic.class:?]
+	at the_fireplace.clans.forge.event.LandProtectionEvents.rightClickBlock(LandProtectionEvents.java:60) ~[LandProtectionEvents.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_57_LandProtectionEvents_rightClickBlock_RightClickBlock.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:753) [EventBus.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:708) [EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostPlayerInteractBlockEvent(SpongeToForgeEventFactory.java:464) [SpongeToForgeEventFactory.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostForgeEvent(SpongeToForgeEventFactory.java:252) [SpongeToForgeEventFactory.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:337) [SpongeModEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:446) [SpongeModEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.SpongeImplHooks.postForgeEventDataCompatForSponge(SpongeImplHooks.java:2710) [SpongeImplHooks.class:1.12.2-2838-7.1.9]
+	at net.minecraft.server.management.PlayerInteractionManager.func_187251_a(PlayerInteractionManager.java:829) [or.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$zii000$impl$checkState(NetHandlerPlayServer.java:2947) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_184337_a(NetHandlerPlayServer.java:741) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.func_148833_a(SourceFile:55) [ma.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.func_148833_a(SourceFile:11) [ma.class:?]
+	at org.spongepowered.common.event.tracking.phase.packet.PacketPhaseUtil.onProcessPacket(PacketPhaseUtil.java:219) [PacketPhaseUtil.class:1.12.2-2838-7.1.9]
+	at net.minecraft.network.PacketThreadUtil$1.redirect$zla000$impl$redirectToPhaseTracker(SourceFile:540) [hv$1.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at org.spongepowered.common.SpongeImplHooks.onUtilRunTask(SpongeImplHooks.java:308) [SpongeImplHooks.class:1.12.2-2838-7.1.9]
+	at net.minecraft.server.MinecraftServer.redirect$zje000$onRun(MinecraftServer.java:4713) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[02:58:52] [Server thread/ERROR] [FML]: Index: 2 Listeners:
+[02:58:52] [Server thread/ERROR] [FML]: 0: NORMAL
+[02:58:52] [Server thread/ERROR] [FML]: 1: ASM: class twilightforest.TFEventListener onPlayerRightClick(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V
+[02:58:52] [Server thread/ERROR] [FML]: 2: ASM: class the_fireplace.clans.forge.event.LandProtectionEvents rightClickBlock(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V
+[02:58:52] [Server thread/ERROR] [FML]: 3: ASM: com.mcqwy.function.common.EventLoader@1e27b09b onPlayerClickBlock(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V
+[02:58:52] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(Unknown Source) ~[?:1.8.0_161]
+	at java.util.concurrent.FutureTask.get(Unknown Source) ~[?:1.8.0_161]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at org.spongepowered.common.SpongeImplHooks.onUtilRunTask(SpongeImplHooks.java:308) [SpongeImplHooks.class:1.12.2-2838-7.1.9]
+	at net.minecraft.server.MinecraftServer.redirect$zje000$onRun(MinecraftServer.java:4713) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.NullPointerException
+	at the_fireplace.clans.model.Clan.hasLockAccess(Clan.java:766) ~[Clan.class:?]
+	at the_fireplace.clans.logic.LandProtectionEventLogic.shouldCancelRightClickBlock(LandProtectionEventLogic.java:163) ~[LandProtectionEventLogic.class:?]
+	at the_fireplace.clans.forge.event.LandProtectionEvents.rightClickBlock(LandProtectionEvents.java:60) ~[LandProtectionEvents.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_57_LandProtectionEvents_rightClickBlock_RightClickBlock.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:753) ~[EventBus.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.forgeBridge$post(EventBus.java:708) ~[EventBus.class:?]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostPlayerInteractBlockEvent(SpongeToForgeEventFactory.java:464) ~[SpongeToForgeEventFactory.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeToForgeEventFactory.createAndPostForgeEvent(SpongeToForgeEventFactory.java:252) ~[SpongeToForgeEventFactory.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:337) ~[SpongeModEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:446) ~[SpongeModEventManager.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.SpongeImplHooks.postForgeEventDataCompatForSponge(SpongeImplHooks.java:2710) ~[SpongeImplHooks.class:1.12.2-2838-7.1.9]
+	at net.minecraft.server.management.PlayerInteractionManager.func_187251_a(PlayerInteractionManager.java:829) ~[or.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.redirect$zii000$impl$checkState(NetHandlerPlayServer.java:2947) ~[pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_184337_a(NetHandlerPlayServer.java:741) ~[pa.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.func_148833_a(SourceFile:55) ~[ma.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.func_148833_a(SourceFile:11) ~[ma.class:?]
+	at org.spongepowered.common.event.tracking.phase.packet.PacketPhaseUtil.onProcessPacket(PacketPhaseUtil.java:219) ~[PacketPhaseUtil.class:1.12.2-2838-7.1.9]
+	at net.minecraft.network.PacketThreadUtil$1.redirect$zla000$impl$redirectToPhaseTracker(SourceFile:540) ~[hv$1.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:1.8.0_161]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 7 more
