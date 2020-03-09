@@ -1,0 +1,78 @@
+[05:48:48] [Server thread/INFO] [nucleus]: 1234 执行指令: /clan demote
+[05:48:51] [Server thread/INFO] [nucleus]: 1234 执行指令: /clan demote 12344
+[05:50:28] [Server thread/INFO] [nucleus]: 1234 执行指令: /c invite l
+[05:50:30] [Server thread/INFO] [nucleus]: 1234 执行指令: /c invite r
+[05:50:30] [Server thread/ERROR] [Sponge]: Error occurred while executing command 'c invite r' for source EntityPlayerMP['1234'/1439, l='world', x=406.77, y=64.00, z=406.24]: java.lang.IllegalArgumentException: Name and ID cannot both be blank
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Name and ID cannot both be blank
+	at org.spongepowered.common.command.MinecraftCommandWrapper.tryExecute(MinecraftCommandWrapper.java:165) ~[MinecraftCommandWrapper.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.command.MinecraftCommandWrapper.process(MinecraftCommandWrapper.java:146) ~[MinecraftCommandWrapper.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.command.SpongeCommandDispatcher.process(SpongeCommandDispatcher.java:355) ~[SpongeCommandDispatcher.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.command.SpongeCommandManager.process(SpongeCommandManager.java:338) [SpongeCommandManager.class:1.12.2-2838-7.1.9]
+	at net.minecraft.command.ServerCommandManager.func_71556_a(SourceFile:665) [dh.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+	at org.spongepowered.common.event.tracking.phase.packet.PacketPhaseUtil.onProcessPacket(PacketPhaseUtil.java:219) [PacketPhaseUtil.class:1.12.2-2838-7.1.9]
+	at net.minecraft.network.PacketThreadUtil$1.redirect$zla000$impl$redirectToPhaseTracker(SourceFile:540) [hv$1.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at org.spongepowered.common.SpongeImplHooks.onUtilRunTask(SpongeImplHooks.java:308) [SpongeImplHooks.class:1.12.2-2838-7.1.9]
+	at net.minecraft.server.MinecraftServer.redirect$zje000$onRun(MinecraftServer.java:4713) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.IllegalArgumentException: Name and ID cannot both be blank
+	at com.mojang.authlib.GameProfile.<init>(GameProfile.java:26) ~[GameProfile.class:?]
+	at net.minecraft.server.management.PlayerProfileCache.func_187319_a(SourceFile:82) ~[ph.class:?]
+	at net.minecraft.server.management.PlayerProfileCache.func_152655_a(SourceFile:141) ~[ph.class:?]
+	at the_fireplace.clans.commands.invites.CommandInvite.revokeInvite(CommandInvite.java:102) ~[CommandInvite.class:?]
+	at the_fireplace.clans.commands.invites.CommandInvite.run(CommandInvite.java:61) ~[CommandInvite.class:?]
+	at the_fireplace.clans.commands.ClanSubCommand.func_184881_a(ClanSubCommand.java:105) ~[ClanSubCommand.class:?]
+	at the_fireplace.clans.commands.CommandClan.func_184881_a(CommandClan.java:207) ~[CommandClan.class:?]
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119) ~[bj.class:?]
+	at net.minecraft.command.CommandHandler.accessor$tryExecuteCommand(CommandHandler.java) ~[bj.class:?]
+	at org.spongepowered.common.command.MinecraftCommandWrapper.tryExecute(MinecraftCommandWrapper.java:161) ~[MinecraftCommandWrapper.class:1.12.2-2838-7.1.9]
+	... 21 more
+[05:50:41] [Server thread/INFO] [nucleus]: 1234 执行指令: /c invite revoke
+[05:50:41] [Server thread/ERROR] [Sponge]: Error occurred while executing command 'c invite revoke' for source EntityPlayerMP['1234'/1439, l='world', x=406.77, y=64.00, z=406.24]: java.lang.IllegalArgumentException: Name and ID cannot both be blank
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Name and ID cannot both be blank
+	at org.spongepowered.common.command.MinecraftCommandWrapper.tryExecute(MinecraftCommandWrapper.java:165) ~[MinecraftCommandWrapper.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.command.MinecraftCommandWrapper.process(MinecraftCommandWrapper.java:146) ~[MinecraftCommandWrapper.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.command.SpongeCommandDispatcher.process(SpongeCommandDispatcher.java:355) ~[SpongeCommandDispatcher.class:1.12.2-2838-7.1.9]
+	at org.spongepowered.common.command.SpongeCommandManager.process(SpongeCommandManager.java:338) [SpongeCommandManager.class:1.12.2-2838-7.1.9]
+	at net.minecraft.command.ServerCommandManager.func_71556_a(SourceFile:665) [dh.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:962) [pa.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:941) [pa.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37) [la.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9) [la.class:?]
+	at org.spongepowered.common.event.tracking.phase.packet.PacketPhaseUtil.onProcessPacket(PacketPhaseUtil.java:219) [PacketPhaseUtil.class:1.12.2-2838-7.1.9]
+	at net.minecraft.network.PacketThreadUtil$1.redirect$zla000$impl$redirectToPhaseTracker(SourceFile:540) [hv$1.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_161]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) [h.class:?]
+	at org.spongepowered.common.SpongeImplHooks.onUtilRunTask(SpongeImplHooks.java:308) [SpongeImplHooks.class:1.12.2-2838-7.1.9]
+	at net.minecraft.server.MinecraftServer.redirect$zje000$onRun(MinecraftServer.java:4713) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+Caused by: java.lang.IllegalArgumentException: Name and ID cannot both be blank
+	at com.mojang.authlib.GameProfile.<init>(GameProfile.java:26) ~[GameProfile.class:?]
+	at net.minecraft.server.management.PlayerProfileCache.func_187319_a(SourceFile:82) ~[ph.class:?]
+	at net.minecraft.server.management.PlayerProfileCache.func_152655_a(SourceFile:141) ~[ph.class:?]
+	at the_fireplace.clans.commands.invites.CommandInvite.revokeInvite(CommandInvite.java:102) ~[CommandInvite.class:?]
+	at the_fireplace.clans.commands.invites.CommandInvite.run(CommandInvite.java:61) ~[CommandInvite.class:?]
+	at the_fireplace.clans.commands.ClanSubCommand.func_184881_a(ClanSubCommand.java:105) ~[ClanSubCommand.class:?]
+	at the_fireplace.clans.commands.CommandClan.func_184881_a(CommandClan.java:207) ~[CommandClan.class:?]
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119) ~[bj.class:?]
+	at net.minecraft.command.CommandHandler.accessor$tryExecuteCommand(CommandHandler.java) ~[bj.class:?]
+	at org.spongepowered.common.command.MinecraftCommandWrapper.tryExecute(MinecraftCommandWrapper.java:161) ~[MinecraftCommandWrapper.class:1.12.2-2838-7.1.9]
+	... 21 more
+[05:50:51] [Server thread/INFO] [nucleus]: 1234 执行指令: /c invite revoke 1234
