@@ -364,57 +364,57 @@ commands.opclan.setrank.description=强制设定一个玩家在城镇中的等�
 commands.opclan.setrank.success=玩家 %s 等级设置为 %s 在 %s 城镇中
 commands.opclan.setrank.set=你当前等级为 %s 在 %s 城镇中来自 %s 的设定
 
-commands.opclan.disband.usage=/opclan disband <城镇>（管理员解散城镇）
+commands.opclan.disband.usage=/opclan disband <城镇>(管理员解散城镇)
 commands.opclan.disband.description=可以解散任何城镇
 
 commands.opclan.kick.usage=/opclan kick <城镇> <玩家> OP踢出玩家指令
 commands.opclan.kick.description=从城镇中强制踢出一个玩家
 
-commands.opclan.setcolor.usage=/opclan setcolor <城镇> <颜色代码> （管理员设置城镇颜色）
+commands.opclan.setcolor.usage=/opclan setcolor <城镇> <颜色代码> (管理员设置城镇颜色)
 commands.opclan.setcolor.description=改变任何城镇的颜色
 
-commands.opclan.setdescription.usage=/opclan setdescription <城镇> <新描述> （管理员设置城镇宣言）
+commands.opclan.setdescription.usage=/opclan setdescription <城镇> <新描述> (管理员设置城镇宣言)
 commands.opclan.setdescription.description=设置指定城镇的宣言
 
 commands.opclan.setname.usage=/opclan setname <城镇> <新名字>
 commands.opclan.setname.description=设定指定城镇的名称
 
-commands.opclan.setshield.usage=/opclan setshield <城镇> <时长.分钟> （管理员设置城镇保护时长）
+commands.opclan.setshield.usage=/opclan setshield <城镇> <时长.分钟> (管理员设置城镇保护时长)
 commands.opclan.setshield.description=设置城镇的保护时长,单位分钟
 commands.opclan.setshield.format=设置保护时间格式不正确
 commands.opclan.setshield.success=城镇 %s 保护时间设置为 %s 分钟
 
-commands.opclan.setserver.usage=/opclan setserver <clan> <true|1|false|0> （把城镇设置为服务器城镇）
+commands.opclan.setserver.usage=/opclan setserver <clan> <true|1|false|0> (把城镇设置为服务器城镇)
 commands.opclan.setserver.description=设置管理员城镇,服务器城镇不能被突袭也不能使用经济功能
 commands.opclan.setserver.success_t=你将 %s 设置为服务器城镇
 commands.opclan.setserver.success_f=你已将 %s 移除服务器城镇
 
-commands.opclan.setoption.usage=/opclan set <clan> <option> <value> （设定城镇内部权限,类似领地权限<城镇名><权限><开关/true/false/值>）
-commands.opclan.setoption.description=设定城镇权限,类型为 maxclaims（最大领土数量:块）, mobspawning（怪物生成）, claimcost（领地成本）, mobdamage（怪物免伤）, upkeepexemption（维护免税）, dynmapvisible（地图查看）, server.
+commands.opclan.setoption.usage=/opclan set <clan> <option> <value> (设定城镇内部权限,类似领地权限<城镇名><权限><开关/true/false/值>)
+commands.opclan.setoption.description=设定城镇权限,类型为 maxclaims(最大领土数量:块), mobspawning(怪物生成), claimcost(领地成本), mobdamage(怪物免伤), upkeepexemption(维护免税), dynmapvisible(地图查看), server.
 commands.opclan.setoption.success=你已成功设置为 %s 在 %s选项从 %s 中
 commands.opclan.setoption.failed=未找到 %s 设置选项
 
-commands.opclan.tp.usage=/opclan tp <clan>（管理员城镇传送）
+commands.opclan.tp.usage=/opclan tp <clan>(管理员城镇传送)
 commands.opclan.tp.description=传送到一个城镇
 
 commands.raid.common.notinparty=你没有在一个突袭模式中
 commands.raid.common.not_raiding=你不在开启的突袭模式中
 
-commands.raid.collect.usage=/raid collect （回收突袭时使用的物品）
+commands.raid.collect.usage=/raid collect (回收突袭时使用的物品)
 commands.raid.collect.description=回收在一场突袭活动完成后你放置的物品
 commands.raid.collect.makespace=你的背包空间不足.在您的背包中腾出空间,然后重试.
 commands.raid.collect.success=回收成功
 commands.raid.collect.empty=你没有使用任何东西
 commands.raid.collect.raiding=你不能在突袭过程中回收物品
 
-commands.raid.invite.usage=/raid invite <玩家> （邀请玩家一起突袭城镇）
+commands.raid.invite.usage=/raid invite <玩家> (邀请玩家一起突袭城镇)
 commands.raid.invite.description=邀请玩家加入你的突袭行动
 commands.raid.invite.invited=你被邀请对 %1$s 城镇的突袭行动,参加请输入/raid join %1$s
 commands.raid.invite.success=你成功邀请 %s 参加突袭行动
 commands.raid.invite.inclan=你不能邀请别人袭击他们自己的城镇
 commands.raid.invite.limit=你的突袭行动不能容纳更多的玩家,此次活动有 %s 是进攻人员,目前限制 %s 人
 
-commands.raid.join.usage=/raid join <clan name> （发起对城镇的突袭行动）
+commands.raid.join.usage=/raid join <clan name> (发起对城镇的突袭行动)
 commands.raid.join.description=加入一个对目标城镇的突击队.如果不存在,就会形成一个.
 commands.raid.join.created=你成功发起了对 %s 城镇的突袭行动
 commands.raid.join.create_fail=%s 没有足够的在线玩家
@@ -424,18 +424,18 @@ commands.raid.join.limit=对 %s 城镇的突袭行动人数已满,突袭队伍�
 commands.raid.join.inclan=你不能突袭你自己的城镇
 commands.raid.join.inparty=你已经在一个突袭行动中,想要继续你必须先离开你所在的突袭行动.
 
-commands.raid.leave.usage=/raid leave （离开突袭行动）
+commands.raid.leave.usage=/raid leave (离开突袭行动)
 commands.raid.leave.description=离开你所在的突袭行动
 commands.raid.leave.success=你成功离开了对 %s 城镇的突袭行动
 
-commands.raid.start.usage=/raid start （开始突袭行动）
+commands.raid.start.usage=/raid start (开始突袭行动)
 commands.raid.start.description=开始突袭,将收取突袭费用
 commands.raid.start.success=你成功启动了对 %s 城镇的突袭行动
 commands.raid.start.insufficient_funds=你没有足够的资金来对 %s 城镇发动突袭,它需要 %s
 commands.raid.start.raiding=突袭行动已经启动
 commands.raid.start.error=内部错误:另一个突袭行动正在袭击这个城镇.请在 %s 小时内重试.请将此情况报告给服务器管理员
 
-commands.raid.thru.usage=/raid thru （突袭时通过被保护的方块）
+commands.raid.thru.usage=/raid thru (突袭时通过被保护的方块)
 commands.raid.thru.description=通过受保护的方块
 commands.raid.thru.not_block=您正前方没有方块,或者距离块太远,无法查看锁定信息
 commands.raid.thru.wrong_pos_owner=你所查看的方块不在 %s 的区域内
